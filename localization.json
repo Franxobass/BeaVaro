@@ -1,0 +1,540 @@
+{
+  "tabla PVP cliente": [
+    {
+      "articulo": "PVP"
+    },
+    {
+      "referencia": "1/80",
+      "articulo": "alpargata completa sin plataforma",
+      "base": "36.56 €",
+      "IVA": "7.68 €",
+      "PVP": "44 €"
+    },
+    {
+      "referencia": "1/81",
+      "articulo": "alpargata completa con plataforma",
+      "base": "47.10 €",
+      "IVA": "9.89 €",
+      "PVP": "57 €"
+    },
+    {
+      "referencia": "1/82",
+      "articulo": "alpargata pala sin plataforma",
+      "base": "31.33 €",
+      "IVA": "6.58 €",
+      "PVP": "38 €"
+    },
+    {
+      "referencia": "1/83",
+      "articulo": "alpargata pala con plataforma",
+      "base": "41.87 €",
+      "IVA": "8.79 €",
+      "PVP": "51 €"
+    },
+    {
+      "referencia": "1/60",
+      "articulo": "zapatilla casa algodón con personalización digital",
+      "base": "21.28 €",
+      "IVA": "4.47 €",
+      "PVP": "26 €"
+    },
+    {
+      "referencia": "2/10",
+      "articulo": "llavero rectangular",
+      "base": "12.01 €",
+      "IVA": "2.52 €",
+      "PVP": "15 €"
+    },
+    {
+      "referencia": "2/20",
+      "articulo": "llavero hexagonal",
+      "base": "7.58 €",
+      "IVA": "1.59 €",
+      "PVP": "9 €"
+    },
+    {
+      "referencia": "2/39",
+      "articulo": "pulsera zaraguell + colgate llama redonda ",
+      "base": "4.96 €",
+      "IVA": "1.04 €",
+      "PVP": "6 €"
+    },
+    {
+      "referencia": "2/40",
+      "articulo": "pulsera hierbas + colgate llama redonda ",
+      "base": "5.54 €",
+      "IVA": "1.16 €",
+      "PVP": "6.70 €"
+    },
+    {
+      "referencia": "2/41",
+      "articulo": "pulsera cinta b/d/c + colgante llama redonda",
+      "base": "4.79 €",
+      "IVA": "1.01 €",
+      "PVP": "6 €"
+    },
+    {
+      "referencia": "2/42",
+      "articulo": "pulsera cinta elastica flores + colgante llama redonda",
+      "base": "4.96 €",
+      "IVA": "1.04 €",
+      "PVP": "6 €"
+    },
+    {
+      "referencia": "2/43",
+      "articulo": "pulsera cuerda negra trenzada basica + colgante llama redonda",
+      "base": "5.12 €",
+      "IVA": "1.08 €",
+      "PVP": "6.20 €"
+    },
+    {
+      "referencia": "2/44",
+      "articulo": "pulsera cuentas madera + colgante llama redonda",
+      "base": "4.96 €",
+      "IVA": "1.04 €",
+      "PVP": "6 €"
+    },
+    {
+      "referencia": "2/45",
+      "articulo": "pulsera hilo blanca con perla + colgante llama redonda",
+      "base": "5.12 €",
+      "IVA": "1.08 €",
+      "PVP": "6.20 €"
+    },
+    {
+      "referencia": "2/46",
+      "articulo": "pulsera plata+piedras negras + colgante llama redonda",
+      "base": "6.45 €",
+      "IVA": "1.35 €",
+      "PVP": "7.80 €"
+    },
+    {
+      "referencia": "2/47",
+      "articulo": "pulsera zaraguell + colgate peq",
+      "base": "4.96 €",
+      "IVA": "1.04 €",
+      "PVP": "6 €"
+    },
+    {
+      "referencia": "2/48",
+      "articulo": "pulsera hierbas + colgate peq",
+      "base": "5.54 €",
+      "IVA": "1.16 €",
+      "PVP": "6.70 €"
+    },
+    {
+      "referencia": "2/49",
+      "articulo": "pulsera cinta b/d/c + colgante llama peq",
+      "base": "4.79 €",
+      "IVA": "1.01 €",
+      "PVP": "6 €"
+    },
+    {
+      "referencia": "2/50",
+      "articulo": "pulsera cinta elastica flores + colgante llama peq",
+      "base": "4.96 €",
+      "IVA": "1.04 €",
+      "PVP": "6 €"
+    },
+    {
+      "referencia": "2/51",
+      "articulo": "pulsera cuerda negra trenzada basica + colgante llama peq",
+      "base": "5.12 €",
+      "IVA": "1.08 €",
+      "PVP": "6.20 €"
+    },
+    {
+      "referencia": "2/52",
+      "articulo": "pulsera cuentas madera + colgante llama peq",
+      "base": "4.96 €",
+      "IVA": "1.04 €",
+      "PVP": "6 €"
+    },
+    {
+      "referencia": "2/53",
+      "articulo": "pulsera hilo blanca con perla + colgante llama peq",
+      "base": "5.12 €",
+      "IVA": "1.08 €",
+      "PVP": "6.20 €"
+    },
+    {
+      "referencia": "2/54",
+      "articulo": "pulsera plata+piedras negras + colgante llama peq",
+      "base": "6.45 €",
+      "IVA": "1.35 €",
+      "PVP": "7.80 €"
+    },
+    {
+      "referencia": "2/55",
+      "articulo": "cadena+colgante santa faz",
+      "base": "5.04 €",
+      "IVA": "1.06 €",
+      "PVP": "6.10 €"
+    },
+    {
+      "referencia": "2/56",
+      "articulo": "pulsera hierbas + colgante santa faz",
+      "base": "5.21 €",
+      "IVA": "1.09 €",
+      "PVP": "6.30 €"
+    },
+    {
+      "referencia": "2/80",
+      "articulo": "collar cuentas + camafeo madera",
+      "base": "31.16 €",
+      "IVA": "6.54 €",
+      "PVP": "38 €"
+    },
+    {
+      "referencia": "2/81",
+      "articulo": "collar bolitas metal + guardapelo corazon",
+      "base": "20.02 €",
+      "IVA": "4.20 €",
+      "PVP": "24 €"
+    },
+    {
+      "referencia": "2/82",
+      "articulo": "collar bolitas metal + guardapelo medallon",
+      "base": "20.22 €",
+      "IVA": "4.25 €",
+      "PVP": "24 €"
+    },
+    {
+      "referencia": "3/10",
+      "articulo": " caja musical pequeña",
+      "base": "22.14 €",
+      "IVA": "4.65 €",
+      "PVP": "27 €"
+    },
+    {
+      "referencia": "3/20",
+      "articulo": "caja abanico",
+      "base": "18.44 €",
+      "IVA": "3.87 €",
+      "PVP": "22 €"
+    },
+    {
+      "referencia": "3/21",
+      "articulo": "caja tapa cristal",
+      "base": "13.23 €",
+      "IVA": "2.78 €",
+      "PVP": "16 €"
+    },
+    {
+      "referencia": "3/22 ",
+      "articulo": "caja rectangular con patas",
+      "base": "14.33 €",
+      "IVA": "3.01 €",
+      "PVP": "17 €"
+    },
+    {
+      "referencia": "3/90",
+      "articulo": "tarro cristal cenizas 50mm",
+      "base": "3.84 €",
+      "IVA": "0.81 €",
+      "PVP": "5 €"
+    },
+    {
+      "referencia": "4/10",
+      "articulo": "guardatodo",
+      "base": "14.15 €",
+      "IVA": "2.97 €",
+      "PVP": "17 €"
+    },
+    {
+      "referencia": "4/11",
+      "articulo": "bolsa tote bag algodon",
+      "base": "11.81 €",
+      "IVA": "2.48 €",
+      "PVP": "14 €"
+    },
+    {
+      "referencia": "4/12",
+      "articulo": "mochila algodón",
+      "base": "4.36 €",
+      "IVA": "0.92 €",
+      "PVP": "5 €"
+    },
+    {
+      "referencia": "4/13",
+      "articulo": "funda gafas/movil clic/clac",
+      "base": "15.06 €",
+      "IVA": "3.16 €",
+      "PVP": "18 €"
+    },
+    {
+      "referencia": "4/14",
+      "articulo": "saco para banda",
+      "base": "21.54 €",
+      "IVA": "4.52 €",
+      "PVP": "26 €"
+    },
+    {
+      "referencia": "5/10",
+      "articulo": "hucha madera",
+      "base": "26.03 €",
+      "IVA": "5.47 €",
+      "PVP": "31 €"
+    },
+    {
+      "referencia": "5/11",
+      "articulo": "marco letra+nombre",
+      "base": "14.89 €",
+      "IVA": "3.13 €",
+      "PVP": "18 €"
+    },
+    {
+      "referencia": "5/12",
+      "articulo": "marco ALACANT 52x25",
+      "base": "30.35 €",
+      "IVA": "6.37 €",
+      "PVP": "37 €"
+    },
+    {
+      "referencia": "5/13",
+      "articulo": "marco con lamina plano",
+      "base": "10.02 €",
+      "IVA": "2.10 €",
+      "PVP": "12 €"
+    },
+    {
+      "referencia": "6/10",
+      "articulo": "bola navidad",
+      "base": "17.04 €",
+      "IVA": "3.58 €",
+      "PVP": "21 €"
+    },
+    {
+      "referencia": "6/11",
+      "articulo": "conjunto 3 imanes con tela packaging simple",
+      "base": "7.65 €",
+      "IVA": "1.61 €",
+      "PVP": "9 €"
+    },
+    {
+      "referencia": "6/12",
+      "articulo": "pack 4 posavasos",
+      "base": "15.98 €",
+      "IVA": "3.36 €",
+      "PVP": "19 €"
+    },
+    {
+      "referencia": "6/13",
+      "articulo": "peluche llama 30cm con nombre cuerda y alambre",
+      "base": "15.65 €",
+      "IVA": "3.29 €",
+      "PVP": "19 €"
+    },
+    {
+      "referencia": "6/14",
+      "articulo": "colgador llama puerta",
+      "base": "10.58 €",
+      "IVA": "2.22 €",
+      "PVP": "13 €"
+    },
+    {
+      "referencia": "6/16",
+      "articulo": "cojín con foto",
+      "base": "13.52 €",
+      "IVA": "2.84 €",
+      "PVP": "16 €"
+    },
+    {
+      "referencia": "7/10",
+      "articulo": "collar perro 25mm",
+      "base": "13.45 €",
+      "IVA": "2.82 €",
+      "PVP": "16 €"
+    },
+    {
+      "referencia": "7/20",
+      "articulo": "correa perro cuerda",
+      "base": "8.28 €",
+      "IVA": "1.74 €",
+      "PVP": "10 €"
+    },
+    {
+      "referencia": "8/10",
+      "articulo": "realera basica",
+      "base": "13.14 €",
+      "IVA": "2.76 €",
+      "PVP": "16 €"
+    },
+    {
+      "referencia": "8/20",
+      "articulo": "aguja banda básica",
+      "base": "4.00 €",
+      "IVA": "0.84 €",
+      "PVP": "5 €"
+    },
+    {
+      "referencia": "8/22",
+      "articulo": "aguja banda con colgante",
+      "base": "12.44 €",
+      "IVA": "2.61 €",
+      "PVP": "15 €"
+    },
+    {
+      "referencia": "8/23",
+      "articulo": "caramba madera lazo sencillo",
+      "base": "10.96 €",
+      "IVA": "2.30 €",
+      "PVP": "13 €"
+    },
+    {
+      "referencia": "8/24",
+      "articulo": "mini caramba santa faz lazo sencillo",
+      "base": "5.77 €",
+      "IVA": "1.21 €",
+      "PVP": "7 €"
+    },
+    {
+      "referencia": "8/25",
+      "articulo": "caramba cargo de honor con inicial 30x40",
+      "base": "14.24 €",
+      "IVA": "2.99 €",
+      "PVP": "17 €"
+    },
+    {
+      "referencia": "8/26",
+      "articulo": "caramba cargo de honor con inicial 25mm",
+      "base": "12.38 €",
+      "IVA": "2.60 €",
+      "PVP": "15 €"
+    },
+    {
+      "referencia": "8/27",
+      "articulo": "caramba cargo de honor 18x25",
+      "base": "9.92 €",
+      "IVA": "2.08 €",
+      "PVP": "12 €"
+    },
+    {
+      "referencia": "9/10",
+      "articulo": "forrado manoletinas",
+      "base": "48.39 €",
+      "IVA": "10.16 €",
+      "PVP": "59 €"
+    },
+    {
+      "referencia": "9/11",
+      "articulo": "forrado siglo XVIII con lazo zapatero",
+      "base": "24.81 €",
+      "IVA": "5.21 €",
+      "PVP": "30 €"
+    },
+    {
+      "referencia": "9/12",
+      "articulo": "forrado siglo XVIII con lazo y hebilla",
+      "base": "24.81 €",
+      "IVA": "5.21 €",
+      "PVP": "30 €"
+    },
+    {
+      "referencia": "9/13",
+      "articulo": "forrado siglo XVIII con lazo, copete y hebilla",
+      "base": "24.90 €",
+      "IVA": "5.23 €",
+      "PVP": "30 €"
+    },
+    {
+      "referencia": "9/20",
+      "articulo": "bambas personalizadas",
+      "base": "24.82 €",
+      "IVA": "5.21 €",
+      "PVP": "30 €"
+    },
+    {
+      "articulo": "plantillas piel",
+      "base": "10.67 €",
+      "IVA": "2.24 €",
+      "PVP": "13 €"
+    },
+    {
+      "articulo": "MONE STUDIO llama 30x20",
+      "base": "12.85 €",
+      "IVA": "2.70 €",
+      "PVP": "16 €"
+    },
+    {
+      "articulo": "MONE STUDIO jeperudeta 30x20",
+      "base": "16.83 €",
+      "IVA": "3.53 €",
+      "PVP": "20 €"
+    },
+    {
+      "articulo": "MONE STUDIO fallera 30x20",
+      "base": "12.32 €",
+      "IVA": "2.59 €",
+      "PVP": "15 €"
+    },
+    {
+      "articulo": "MONE STUDIO peineta 30x20 lona",
+      "base": "11.21 €",
+      "IVA": "2.35 €",
+      "PVP": "14 €"
+    },
+    {
+      "articulo": "MONE STUDIO peineta llavero 8x5cm lona",
+      "base": "11.97 €",
+      "IVA": "2.51 €",
+      "PVP": "14 €"
+    }
+  ],
+  "datos para web": [
+    {
+      "ENVÍO": "Peso"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.05"
+    },
+    {
+      "ENVÍO": "0.2"
+    }
+  ]
+}

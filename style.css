@@ -1,0 +1,231 @@
+/* Definir las variables de color */
+:root {
+    --color-header-bg: lightblue;
+    --color-nav-link: white;
+    --color-link: #007bff;
+    --color-footer-bg: lightblue;
+    --color-element-bg: #f0f0f0;
+    --color-fondo: navy;
+}
+
+/* General */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Asegura que el body ocupe todo el alto de la pantalla */
+    font-family: 'Lora', serif; /* Fuente para texto general */
+}
+
+/* Usar grid en el body, pero con altura ajustada */
+body {
+    display: grid;
+    grid-template-rows: 100px 1fr auto; /* Header con altura fija de 100px, el contenido central ocupa el espacio restante y footer con altura automática */
+    grid-template-columns: 100%; /* Que ocupe todo el ancho */
+    height: 100%; /* Asegura que ocupe todo el alto */
+}
+
+/* Estilos generales para texto */
+p, a, div {
+    font-size: 16px;
+    line-height: 1.6; /* Espaciado para mejorar la lectura */
+}
+
+/* Estilo para enlaces */
+a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* --------------------- Estilo para enlaces ------------------------------*/
+.primeraMayuscula{
+    color: black;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.primeraMayuscula:first-letter{
+    text-transform: uppercase;
+}
+
+
+/* Header */
+header {
+    background-color: var(--color-header-bg);
+    padding: 0;
+    display: grid;
+    grid-template-columns: 70% 30%; /* Header dividido entre título y navegación */
+    height: 100px; /* Establece la altura del header en 100px */
+    align-items: flex-end; /* Alinea el contenido verticalmente en la parte inferior */
+}
+
+header > h1 {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente dentro del h1 */
+    justify-content: center; /* Centra el texto horizontalmente */
+}
+
+nav {
+    display: flex;
+    align-items: flex-end; /* Alinea el contenido de nav en la parte inferior */
+    justify-content: center; /* Centra los elementos de nav horizontalmente */
+}
+
+nav ul {
+    display: flex; /* Activa Flexbox */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 0;
+}
+
+/* Estilo para los enlaces del nav */
+nav ul li a {
+    text-decoration: none;
+    color: var(--color-nav-link);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0 10px; /* Añade un pequeño margen entre los enlaces */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor principal con Grid */
+.contenedor-categorias {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Alinea los elementos verticalmente */
+    gap: 10px; /* Espacio entre elementos */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 10px 0; /* Espaciado superior e inferior */
+    background-color: #f8f8f8; /* Color de fondo opcional */
+}
+
+.listaCategoria {
+    /*background-color: lightgray;*/
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.listaCategoria:hover {
+    background-color: lightgray;
+    text-decoration: underline;
+}
+
+
+
+.main {
+    display: grid;
+    grid-template-columns: 30% 70%; /* 3 columnas de igual tamaño */
+    gap: 10px; /* Espacio entre elementos */
+    padding: 10px 100px;
+    background-color: var(--color-fondo);
+}
+
+/* Estilos de cada elemento */
+.elemento {
+    background-color: var(--color-element-bg);
+    padding: 0;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex; /* Añadir flexbox */
+    align-items: center; /* Centrar la imagen verticalmente */
+    justify-content: center; /* Centrar la imagen horizontalmente */
+    width: 100%; /* Asegurar que la caja ocupe todo el espacio */
+    height: 100%; /* Ocupar toda la altura */
+}
+
+.elemento img {
+    width: 100%; /* La imagen ocupará el 100% del ancho */
+    height: 100%; /* La imagen ocupará el 100% del alto */
+    object-fit: cover; /* Asegura que la imagen cubra toda la caja sin distorsionarse */
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-footer-bg);
+    padding: 10px 0;
+    text-align: center
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}
+
+
+    
+.div1 {
+    background-color: green;
+    grid-column: span 3 / span 3;
+}
+
+.div2 {
+    background-color: fuchsia;
+    grid-column: span 3 / span 3;
+    grid-column-start: 4;
+}
+
+.div3 {
+    background-color: lightcoral;
+    grid-column: span 2 / span 2;
+    grid-row-start: 2;
+}
+
+.div4 {
+    background-color: lightcyan;
+    grid-column: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.div5 {
+    background-color: gold;
+    grid-column: span 2 / span 2;
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+
+/* Asegura que las imágenes cubran todo el contenedor */
+.div1 img, .div2 img, .div3 img, .div4 img, .div5 img {
+    width: 100%; /* La imagen ocupará todo el ancho */
+    height: 100%; /* La imagen ocupará todo el alto */
+    object-fit: cover; /* La imagen se recorta para llenar el espacio sin deformarse */
+}
+
+/* Texto oculto que aparece al hacer hover */
+.texto-hover {
+    position: absolute; /* El texto se posiciona dentro de la caja */
+    bottom: 20px; /* Ajusta la posición vertical del texto */
+    left: 20px; /* Ajusta la posición horizontal del texto */
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo translúcido para mejorar la visibilidad */
+    padding: 10px;
+    visibility: hidden; /* El texto está oculto por defecto */
+    width: calc(100% - 40px); /* El texto ocupa todo el ancho disponible, menos el padding */
+    text-align: center; /* Centra el texto */
+}
+
+/* Mostrar el texto cuando la caja es hovered */
+.div1:hover .texto-hover, .div2:hover .texto-hover, .div3:hover .texto-hover, .div4:hover .texto-hover, .div5:hover .texto-hover {
+    visibility: visible; /* El texto se vuelve visible */
+}

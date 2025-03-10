@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="miApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bea Varó Artesanía</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body ng-controller="miControlador">
+    <div ng-include="'header.html'"></div>
+    <!-- <div class="contenedor-categorias">
+        <nav ng-repeat="categoria in categoriasFiltradas track by $index" class="listaCategoria">
+            <div ng-click="filtrarPorCategoria(categoria)">{{categoria}}</div>
+        </nav>
+    </div> -->
+<!--
+    <div class="parent">
+        <img src="/img/alpargata completa con plataforma.jpg" class="div1">
+        <img src="/img/alpargata completa con plataforma.jpg" class="div2">
+        <img src="/img/alpargata completa con plataforma.jpg" class="div3">
+        <img src="/img/alpargata completa con plataforma.jpg" class="div4">
+        <img src="/img/alpargata completa con plataforma.jpg" class="div5">
+    </div>
+    -->
+
+
+    <div class="parent">
+        <div class="div1">
+            <img src="/img/alpargata completa con plataforma.jpg">
+            <div class="texto-hover">Texto al hacer hover</div>
+        </div>
+        <div class="div2">
+            <img src="/img/alpargata completa con plataforma.jpg">
+            <div class="texto-hover">Texto al hacer hover</div>
+        </div>
+        <div class="div3">
+            <img src="/img/alpargata completa con plataforma.jpg">
+            <div class="texto-hover">Texto al hacer hover</div>
+        </div>
+        <div class="div4">
+            <img src="/img/alpargata completa con plataforma.jpg">
+            <div class="texto-hover">Texto al hacer hover</div>
+        </div>
+        <div class="div5">
+            <img src="/img/alpargata completa con plataforma.jpg">
+            <div class="texto-hover">Texto al hacer hover</div>
+        </div>
+    </div>
+
+
+    <div class="main">
+        <div ng-repeat="elemento in datosLeidos track by $index">
+            <div class="elemento">
+                <!-- <div class="negrita primeraMayuscula">{{elemento.nombre}}</div> -->
+                <!-- <div class="textoDescripcion">{{elemento.descripcion}}</div> -->
+                <!-- <div>Precio: {{(elemento.precio | number:2) + "€"}}</div> -->
+                <!-- <div>Precio: {{elemento.precio}}</div> -->
+                <!-- <div class="primeraMayuscula">Categoria: {{elemento.categoria}}</div> -->
+                <!-- <a href="{{elemento.url}}" target="_blank" title="Comprar">Comprar</a> -->
+                <img src="{{elemento.imagen}}" alt="{{elemento.nombre}}">
+            </div>
+        </div>
+    </div>
+    <div ng-include="'footer.html'">ggg</div>
+</body>
+</html>

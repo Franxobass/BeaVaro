@@ -1,0 +1,34 @@
+[
+{
+    "nombre": "Realera Artesanal de Lana rústica Crema",
+    "url": "https://tienda.beavaro.es/realera-artesanal-de-lana-perle-colores-neutros-1-1?color=canela-crema",
+    "carpetaImg": "img",
+    "img": "gorro-canela.jpg",
+    "categoria": "Complementos para indumentaria regional",
+    "mostrar": "S"
+},
+{
+    "nombre": "Realera Artesanal de Lana rústica Gris Hueso",
+    "url": "https://tienda.beavaro.es/realera-artesanal-de-lana-perle-colores-neutros-1-1?color=gris-hueso",
+    "carpetaImg": "img",
+    "img": "gorro-morado.jpg",
+    "categoria": "Complementos para indumentaria regional",
+    "mostrar": "S"
+},
+{
+    "nombre": "Realera Artesanal de Lana rústica Verde Bosque",
+    "url": "https://tienda.beavaro.es/realera-artesanal-de-lana-perle-colores-neutros-1-1?color=gorro-verde-bosque",
+    "carpetaImg": "img",
+    "img": "gorro-verde-bosque.jpg",
+    "categoria": "Complementos para indumentaria regional",
+    "mostrar": "S"
+},
+{
+    "nombre": "Realera Artesanal de Lana rústica Verde Oscuro",
+    "url": "https://tienda.beavaro.es/realera-artesanal-de-lana-perle-colores-neutros-1-1?color=hueso-verde-oscuro",
+    "carpetaImg": "img",
+    "img": "gorro-verde-oscuro.jpg",
+    "categoria": "Complementos para indumentaria regional",
+    "mostrar": "S"
+}
+]
