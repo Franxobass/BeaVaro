@@ -7,8 +7,15 @@ app.controller("miControlador",function($scope, $log, $http){
     function cargaInicial(){
 
         $scope.texto = "Es un texto";
-
         console.log('hola', $scope.texto);
+
+        const currentUrl = window.location.href; 
+        const parsedUrl = new URL(currentUrl);
+
+        const pathName = parsedUrl.pathname;       
+        const baseUrl = parsedUrl.origin + parsedUrl.pathname.replace("index.html", "");
+        //console.log(currentUrl);
+        console.log(baseUrl);
         
 
         
@@ -87,7 +94,8 @@ app.controller("miControlador",function($scope, $log, $http){
                         descripcion: fila.descripcion,
                         //mostrar: fila.mostrar,
                         url: fila.url,
-                        imagen: '/img/'+fila.articulo+'.jpg',
+                        //imagen: '/img/'+fila.articulo+'.jpg',
+                        imagen: baseUrl+'/img/'+fila.articulo+'.jpg',
                         precio: fila.precio,
                         mostrar: fila.mostrar
                     });
