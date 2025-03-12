@@ -1,0 +1,20 @@
+{
+  "name": "beavaro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/main.scss estilos.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Franxobass/BeaVaro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franxobass/BeaVaro/issues"
+  },
+  "homepage": "https://github.com/Franxobass/BeaVaro#readme",
+  "description": ""
+}

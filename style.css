@@ -287,31 +287,36 @@ footer {
 @media (max-width: 600px) {
     /* Modificar el grid del body para ser más móvil-friendly */
     body {
-        grid-template-rows: 80px 1fr auto; /* Reducir la altura del header */
+        grid-template-rows: 1fr auto; /* Reducir la altura del header */
     }
 
     /* Hacer que el header se apile en lugar de dividirse en dos columnas */
     header {
         grid-template-columns: 1fr; /* El header ocupa el 100% de la pantalla */
-        height: 80px; /* Ajustar la altura del header */
     }
 
     /* Centrar los elementos del header */
     header > h1 {
+        background-color: orange;
         text-align: left;
         padding-left: 20px;
     }
 
     nav {
+        background-color: red;
         justify-content: flex-start; /* Alinear los enlaces a la izquierda */
     }
 
     nav ul {
+        width: 100%;
         flex-direction: column; /* Los enlaces se apilan verticalmente */
+        background-color: lime;
     }
 
     nav ul li {
         margin-bottom: 10px; /* Espaciado entre los enlaces */
+        background-color: lightgreen;
+        text-align:center;
     }
 
     /* Cambiar la estructura del main para que las columnas se apilen */

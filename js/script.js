@@ -9,54 +9,19 @@ app.controller("miControlador",function($scope, $log, $http){
         $scope.texto = "Es un texto";
         console.log('hola', $scope.texto);
 
-        const currentUrl = window.location.href; 
-        const parsedUrl = new URL(currentUrl);
+        // const currentUrl = window.location.href; 
+        // const parsedUrl = new URL(currentUrl);
 
-        const pathName = parsedUrl.pathname;       
-        const baseUrl = parsedUrl.origin + parsedUrl.pathname.replace("index.html", "");
-        //console.log(currentUrl);
-        console.log(baseUrl);
+        // const pathName = parsedUrl.pathname;       
+        // const baseUrl = parsedUrl.origin + parsedUrl.pathname.replace("index.html", "");
+        // //console.log(currentUrl);
+        // console.log(baseUrl);
         
 
-        
-
-
-        // $scope.calidadesSeleccionadas = {};
-
-        // $scope.calidades = [
-        //     { "nivel": 1, "texto": "Normal"},
-        //     { "nivel": 2, "texto": "Good"},
-        //     { "nivel": 3, "texto": "Outstanding"},
-        //     { "nivel": 4, "texto": "Excellent"},
-        //     { "nivel": 5, "texto": "Masterpiece"},
-        // ];
-
-        // $scope.listadoRarezas = [
-        //     { "nivel": 0, "texto": null},
-        //     { "nivel": 1, "texto": "Uncommom"},
-        //     { "nivel": 2, "texto": "Rare"},
-        //     { "nivel": 3, "texto": "Exceptional"},
-        // ];
 
         leerJSON().then(function(data){
             // return traerDatos();
         });
-
-        // // $scope.filtroCalidad = function(calidad){
-        // //     console.log(calidad);
-            
-        // // }
-
-        // $scope.filtrar = function(calidad){
-        //     filtrarPorcentaje();
-
-        //     //añadimos quitamos la calidad según corresponda
-
-        //     if(calidad){
-        //         filtrarCalidad(calidad);
-        //     }
-        //     console.log($scope.datosTabla);
-        // };
 
     }
 
@@ -94,8 +59,8 @@ app.controller("miControlador",function($scope, $log, $http){
                         descripcion: fila.descripcion,
                         //mostrar: fila.mostrar,
                         url: fila.url,
-                        //imagen: '/img/'+fila.articulo+'.jpg',
-                        imagen: baseUrl+'/img/'+fila.articulo+'.jpg',
+                        imagen: '/img/'+fila.articulo+'.jpg',
+                        // imagen: baseUrl+'/img/'+fila.articulo+'.jpg',
                         precio: fila.precio,
                         mostrar: fila.mostrar
                     });

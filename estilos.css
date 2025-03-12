@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "Lora", serif; /* Fuente para texto general */
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  padding: 0 60px;
+  display: flex;
+  flex-direction: row;
+}
+header div {
+  width: 70%;
+}
+header div img {
+  width: auto;
+  height: 100%;
+}
+header nav {
+  width: 30%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+header nav a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  header h1, header nav {
+    width: 100%;
+  }
+}
+.container-img {
+  padding: 30px 60px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(6, 1fr);
+}
+.container-img .card {
+  position: relative;
+  overflow: hidden;
+}
+.container-img .card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+.container-img .card .textos {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.container-img .card:nth-child(1), .container-img .card:nth-child(2) {
+  grid-column: span 3;
+}
+.container-img .card:nth-child(n+3) {
+  grid-column: span 2;
+}
+
+@media (max-width: 600px) {
+  .container-img {
+    grid-template-columns: 1fr;
+    padding: 30px 10px;
+    gap: 0;
+    row-gap: 10px;
+  }
+  .container-img .card {
+    grid-column: span 1;
+  }
+  .container-img .card:nth-child(n+3) {
+    background-color: pink;
+  }
+}
+footer {
+  width: 100%;
+  padding: 20px 60px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
