@@ -5,10 +5,6 @@
   "scripts": {
     "sass": "sass scss/main.scss estilos.css --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/Franxobass/BeaVaro.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
