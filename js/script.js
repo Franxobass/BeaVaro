@@ -6,22 +6,24 @@ app.controller("miControlador",function($scope, $log, $http){
 
     function cargaInicial(){
 
-        $scope.texto = "Es un texto";
-        console.log('hola', $scope.texto);
+        // // $scope.texto = "Es un texto";
+        // // console.log('hola', $scope.texto);
 
         const currentUrl = window.location.href; 
+        var cadenaModificada = currentUrl.replace('/index.html','');
         console.log(currentUrl);
+        console.log(cadenaModificada);
         
-        const parsedUrl = new URL(currentUrl);
+        // // const parsedUrl = new URL(currentUrl);
 
-        const pathName = parsedUrl.pathname;       
+        // // const pathName = parsedUrl.pathname;       
 
-        console.log('pathName',pathName);
-        console.log('parsed',parsedUrl);
-        console.log('parsed2',parsedUrl.origin);
+        // // console.log('pathName',pathName);
+        // // console.log('parsed',parsedUrl);
+        // // console.log('parsed2',parsedUrl.origin);
 
-        $scope.urlImagenes = parsedUrl.origin;
-        
+        $scope.urlImagenes = cadenaModificada;
+
         
         // const baseUrl = parsedUrl.origin + parsedUrl.pathname.replace("index.html", "");
         // //console.log(currentUrl);
