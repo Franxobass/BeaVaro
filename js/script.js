@@ -22,6 +22,7 @@ app.controller("miControlador",function($scope, $log, $http){
 
         $scope.urlImagenes = parsedUrl.origin;
         
+        
         // const baseUrl = parsedUrl.origin + parsedUrl.pathname.replace("index.html", "");
         // //console.log(currentUrl);
         // console.log(baseUrl);
