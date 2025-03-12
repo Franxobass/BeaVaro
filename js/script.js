@@ -63,6 +63,7 @@ app.controller("miControlador",function($scope, $log, $http){
                         // imagen: baseUrl+'/img/'+fila.articulo+'.jpg',
                         precio: fila.precio,
                         mostrar: fila.mostrar
+                        
                     });
                 }
 
