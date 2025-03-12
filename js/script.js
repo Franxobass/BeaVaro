@@ -9,10 +9,19 @@ app.controller("miControlador",function($scope, $log, $http){
         $scope.texto = "Es un texto";
         console.log('hola', $scope.texto);
 
-        // const currentUrl = window.location.href; 
-        // const parsedUrl = new URL(currentUrl);
+        const currentUrl = window.location.href; 
+        console.log(currentUrl);
+        
+        const parsedUrl = new URL(currentUrl);
 
-        // const pathName = parsedUrl.pathname;       
+        const pathName = parsedUrl.pathname;       
+
+        console.log('pathName',pathName);
+        console.log('parsed',parsedUrl);
+        console.log('parsed2',parsedUrl.origin);
+
+        $scope.urlImagenes = parsedUrl.origin;
+        
         // const baseUrl = parsedUrl.origin + parsedUrl.pathname.replace("index.html", "");
         // //console.log(currentUrl);
         // console.log(baseUrl);
@@ -63,7 +72,7 @@ app.controller("miControlador",function($scope, $log, $http){
                         // imagen: baseUrl+'/img/'+fila.articulo+'.jpg',
                         precio: fila.precio,
                         mostrar: fila.mostrar
-                        
+
                     });
                 }
 
